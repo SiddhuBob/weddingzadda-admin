@@ -1,0 +1,26 @@
+[
+  {
+    "value": "MNTH",
+    "label": "Monthly"
+  },
+  {
+    "value": "QURT",
+    "label": "Quarterly"
+  },
+  {
+    "value": "MIAN",
+    "label": "Semi annually"
+  },
+  {
+    "value": "YEAR",
+    "label": "Yearly"
+  },
+  {
+    "value": "ADHO",
+    "label": "Adhoc"
+  },
+  {
+    "value": "INDA",
+    "label": "Intra Day"
+  }
+]

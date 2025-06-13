@@ -1,0 +1,27 @@
+[
+    {
+        "value":"special",
+        "label":"Special"
+    }
+    ,{
+        "value":"website",
+        "label":"Website"
+    }
+    ,
+    {
+        "value":"social media",
+        "label":"Social Media"
+    },
+    {
+        "value":"graphic",
+        "label":"Graphic Design"
+    },
+    {
+        "value":"seo",
+        "label":"SEO"
+    },
+    {
+        "value":"ppc",
+        "label":"PPC Services"
+    }
+]

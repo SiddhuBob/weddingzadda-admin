@@ -1,0 +1,22 @@
+[
+    {
+        "value":"Developer",
+        "label":"Developer"
+    },
+    {
+        "value":"Sales Executive",
+        "label":"Sales Executive"
+    },
+    {
+        "value":"Graphic Designer",
+        "label":"Graphic Designer"
+    },
+    {
+        "value":"Social Media Manager",
+        "label":"Social Media Manager"
+    },
+    {
+        "value":"SEO Executive",
+        "label":"SEO Executive"
+    }
+]
