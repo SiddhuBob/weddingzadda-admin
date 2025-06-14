@@ -12,6 +12,7 @@ import UpdateSlots from "../Forms/Slots/UpdateSlots";
 import AddAppointment from "../Forms/Appointment/AddAppointment";
 import AddVendor from "../Forms/Vendor/AddVendor";
 import UpdateVendor from "../Forms/Vendor/UpdateVendor";
+import AddCommunity from "../Forms/Community/AddCommunity";
 
 const DrawerComp = () => {
   const { drawerData, closedDrawer } = useDrawerContext();
@@ -38,7 +39,7 @@ const DrawerComp = () => {
         {/* new added  */}
         {drawerData.type === "VendorsAdd" && <AddVendor />}
         {drawerData.type === "vendorUpdate" && <UpdateVendor />}
-
+        {drawerData.type === "communityAdd" && <AddCommunity />}
 
         {/* not in use  */}
         {drawerData.type === "ServiceAdd" && <AddServices />}

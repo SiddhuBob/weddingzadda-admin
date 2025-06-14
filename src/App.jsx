@@ -13,6 +13,7 @@ import TimeTable from "./pages/TimeTable";
 import User from "./pages/User";
 import Appointment from "./pages/Appointment";
 import Vendors from "./pages/Vendors";
+import Community from "./pages/Community";
 
 function App() {
   const { token } = useSelector((state) => state.auth);
@@ -76,6 +77,14 @@ function App() {
             element={
               <LayoutContext>
                 <Vendors />
+              </LayoutContext>
+            }
+          />
+          <Route
+            path="/community"
+            element={
+              <LayoutContext>
+                <Community />
               </LayoutContext>
             }
           />

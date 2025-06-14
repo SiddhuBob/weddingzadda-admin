@@ -46,10 +46,10 @@ export default function Sidebar() {
       onClick: () => navigate("/dashboard"),
     },
     {
-      key: "/appointments",
-      label: "Appointments",
+      key: "/community",
+      label: "Community",
       icon: <FaList />,
-      onClick: () => navigate("/appointments"),
+      onClick: () => navigate("/community"),
     },
     {
       key: "/categories",
@@ -82,36 +82,36 @@ export default function Sidebar() {
         },
       ],
     },
-    {
-      key: "/services",
-      label: "Services",
-      icon: <ScissorOutlined />,
-      onClick: () => navigate("/services"),
-    },
+    // {
+    //   key: "/services",
+    //   label: "Services",
+    //   icon: <ScissorOutlined />,
+    //   onClick: () => navigate("/services"),
+    // },
     {
       key: "/vendors",
       label: "Vendors",
       icon: <ScissorOutlined />,
       onClick: () => navigate("/vendors"),
     },
-    {
-      key: "/time-table",
-      label: "Time Table",
-      icon: <CalendarOutlined />,
-      onClick: () => navigate("/time-table"),
-    },
+    // {
+    //   key: "/time-table",
+    //   label: "Time Table",
+    //   icon: <CalendarOutlined />,
+    //   onClick: () => navigate("/time-table"),
+    // },
     {
       key: "/user",
       label: "User",
       icon: <UserOutlined />,
       onClick: () => navigate("/user"),
     },
-    {
-      key: "/messaging",
-      label: "Messaging",
-      icon: <BiEnvelope />,
-      onClick: () => navigate("/messaging"),
-    },
+    // {
+    //   key: "/messaging",
+    //   label: "Messaging",
+    //   icon: <BiEnvelope />,
+    //   onClick: () => navigate("/messaging"),
+    // },
     {
       label: isOpen ? (
         "Log Out"
