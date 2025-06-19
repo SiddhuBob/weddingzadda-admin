@@ -13,13 +13,19 @@ import AddAppointment from "../Forms/Appointment/AddAppointment";
 import AddVendor from "../Forms/Vendor/AddVendor";
 import UpdateVendor from "../Forms/Vendor/UpdateVendor";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import AddCommunity from "../Forms/Community/AddCommunity";
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
 import AddEventsandCommunity from "../Forms/EventsandCommunity/AddEventsandCommunity";
 =======
 import AddCommunity from "../Forms/Community/AddCommunity";
 >>>>>>> 68d437804f0ecd50007781bd78bb45d1ad1e2402
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 const DrawerComp = () => {
@@ -48,13 +54,19 @@ const DrawerComp = () => {
         {drawerData.type === "VendorsAdd" && <AddVendor />}
         {drawerData.type === "vendorUpdate" && <UpdateVendor />}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         {drawerData.type === "communityAdd" && <AddCommunity />}
 =======
+=======
+>>>>>>> Stashed changes
 <<<<<<< HEAD
         {drawerData.type === "EventsandCommunityAdd" && <AddEventsandCommunity />}
 =======
         {drawerData.type === "communityAdd" && <AddCommunity />}
 >>>>>>> 68d437804f0ecd50007781bd78bb45d1ad1e2402
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
         {/* not in use  */}

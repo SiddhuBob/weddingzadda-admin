@@ -101,7 +101,10 @@ export default function Sidebar() {
     //   onClick: () => navigate("/time-table"),
     // },
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     {
       key: "/eventsandcommunity",
       label: "Events and Community",
