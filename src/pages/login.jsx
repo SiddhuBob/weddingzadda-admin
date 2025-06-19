@@ -27,13 +27,14 @@ const Login = () => {
 
     formData.append("email", values.username);
     formData.append("password", values.password);
+    formData.append("user_type", "vendor");
     formData.append("action", "login");
 
     try {
       const response = await post("/login", formData);
       if (response) {
-        dispatch(setUserToken({ token: response.token }));
-        storeToken(response.token, values.remember);
+        dispatch(setUserToken({ token: response.user }));
+        storeToken(response.user, values.remember);
         setProfile(response.user, values.remember);
         navigate("/");
       }

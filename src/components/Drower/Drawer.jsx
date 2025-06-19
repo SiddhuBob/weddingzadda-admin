@@ -12,7 +12,15 @@ import UpdateSlots from "../Forms/Slots/UpdateSlots";
 import AddAppointment from "../Forms/Appointment/AddAppointment";
 import AddVendor from "../Forms/Vendor/AddVendor";
 import UpdateVendor from "../Forms/Vendor/UpdateVendor";
+<<<<<<< Updated upstream
 import AddCommunity from "../Forms/Community/AddCommunity";
+=======
+<<<<<<< HEAD
+import AddEventsandCommunity from "../Forms/EventsandCommunity/AddEventsandCommunity";
+=======
+import AddCommunity from "../Forms/Community/AddCommunity";
+>>>>>>> 68d437804f0ecd50007781bd78bb45d1ad1e2402
+>>>>>>> Stashed changes
 
 const DrawerComp = () => {
   const { drawerData, closedDrawer } = useDrawerContext();
@@ -39,7 +47,15 @@ const DrawerComp = () => {
         {/* new added  */}
         {drawerData.type === "VendorsAdd" && <AddVendor />}
         {drawerData.type === "vendorUpdate" && <UpdateVendor />}
+<<<<<<< Updated upstream
         {drawerData.type === "communityAdd" && <AddCommunity />}
+=======
+<<<<<<< HEAD
+        {drawerData.type === "EventsandCommunityAdd" && <AddEventsandCommunity />}
+=======
+        {drawerData.type === "communityAdd" && <AddCommunity />}
+>>>>>>> 68d437804f0ecd50007781bd78bb45d1ad1e2402
+>>>>>>> Stashed changes
 
         {/* not in use  */}
         {drawerData.type === "ServiceAdd" && <AddServices />}
