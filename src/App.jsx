@@ -15,8 +15,11 @@ import Appointment from "./pages/Appointment";
 import Vendors from "./pages/Vendors";
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import Community from "./pages/Community";
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 <<<<<<< HEAD
@@ -25,6 +28,9 @@ import EventsandCommunity from "./pages/EventsandCommunity";
 import Community from "./pages/Community";
 >>>>>>> 68d437804f0ecd50007781bd78bb45d1ad1e2402
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
