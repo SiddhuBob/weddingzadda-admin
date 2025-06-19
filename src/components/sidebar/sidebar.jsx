@@ -100,21 +100,19 @@ export default function Sidebar() {
     //   icon: <CalendarOutlined />,
     //   onClick: () => navigate("/time-table"),
     // },
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
+
+
+
+
+
     {
       key: "/eventsandcommunity",
       label: "Events and Community",
       icon: <CalendarOutlined />,
       onClick: () => navigate("/eventsandcommunity"),
     },
->>>>>>> Stashed changes
+
     {
       key: "/user",
       label: "User",
